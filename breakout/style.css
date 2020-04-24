@@ -1,0 +1,51 @@
+body {
+    margin: 0em;
+    padding: 0em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row1 div {
+    height: 3rem;
+    width: 7rem;
+    background-color: blue;
+}
+
+.row2 div {
+    height: 3rem;
+    width: 7rem;
+    background-color: blue;
+}
+
+.ball {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: crimson;
+    margin-bottom: 21rem;
+}
+
+.bar {
+    height: 2rem;
+    width: 6rem;
+    background-color: red;
+}
+
+
+.left {
+    transform: translateX(-2px);
+}
